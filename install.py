@@ -4,7 +4,7 @@ import subprocess
 
 subprocess.call([ 'pip', 'install' , 'inquirer', '-q' ])
 
-from facefusion-2.3.0 import installer
+from facefusion import installer
 
 if __name__ == '__main__':
 	installer.cli()
